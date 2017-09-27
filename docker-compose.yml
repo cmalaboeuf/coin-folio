@@ -10,7 +10,7 @@ services:
     volumes:
       - mongodb_data:/data
     ports:
-      - "5018:27017"
+      - "27017:27017"
   node:
     extends:
       file: docker-compose-base.yml

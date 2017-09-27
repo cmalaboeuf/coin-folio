@@ -1,3 +1,4 @@
+import { BalancesService } from './services/balances.service';
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
@@ -14,7 +15,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      providers: [{ provide: APP_BASE_HREF, useValue: '/' }]
+      providers: [{ provide: APP_BASE_HREF, useValue: '/' }, BalancesService]
     });
     TestBed.compileComponents();
   });

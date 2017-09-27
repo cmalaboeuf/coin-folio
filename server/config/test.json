@@ -1,4 +1,12 @@
  {
   "database": "mongodb://localhost:5018/testDatabase",
-  "nodePort":8887
+  "nodePort":8887,
+  "kraken": {
+    "apikey" : "your-key",
+    "secret" : "your secret"
+  },
+  "poloniex" : {
+    "apikey" : "your-key",
+    "secret" : "your-secret"
+  }
 }

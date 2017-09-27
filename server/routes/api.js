@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var posts = require('./posts');
+let balance = require('./balance');
 
 /**
  * API Posts
@@ -10,5 +11,7 @@ router.get('/posts/:id',posts.getById);
 router.post('/posts', posts.newPost);
 router.put('/posts/:id', posts.editPost);
 router.delete('/posts/:id',posts.deletePost);
+
+router.get('/balance',balance.getAll);
 
 module.exports = router;

@@ -5,7 +5,7 @@
 /tmp
 
 # dependencies
-/node_modules
+**/node_modules
 /bower_components
 
 # IDEs and editors
@@ -25,6 +25,7 @@
 npm-debug.log
 testem.log
 /typings
+/karma_html
 
 # e2e
 /e2e/*.js

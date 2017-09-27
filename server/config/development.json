@@ -1,4 +1,12 @@
  {
   "database": "mongodb://mongodb:27017/myDatabase",
-  "nodePort" : 8888
+  "nodePort" : 8888,
+  "kraken": {
+    "apikey" : "wGGFQt/p2fZIyoWJAsqLt41y5XlutLhtWrkSc0cuEnmNKMpMbHaXUTj5",
+    "secret" : "BcLH/uP6UqArwTT80uG9IhCDGyj98UmScVHT2TKpCEu4N4jFcM6v1W3S54owJyweowoEgV1nrY/NfoDuHeH7IQ=='"
+  },
+  "poloniex" : {
+    "apikey" : "USIUZT1P-UK4SSLWG-T23WGCTN-ZSDDBMLW",
+    "secret" : "e1c46b39fc49e81a30a0bb32fb377f6d7f3c51318c3eb58000643d07bf7a8c15e0c92f19082209e18178ca23ef59c0d0a7ef1392d2b10ad12ff75e77e639c970"
+  }
 }
